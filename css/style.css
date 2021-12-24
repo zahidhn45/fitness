@@ -1,0 +1,65 @@
+body{
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+}
+.nav_elements{
+    background-image: url(../img/home/hero/h1_hero.png);
+    background-size: 100% 100%;
+    background-position: center;
+    background-repeat: no-repeat;
+    width: 100%;
+    height: 100vh;
+    position: sticky
+}
+.navbar ul li a{
+    color: #fff !important;
+}
+.navbar-brand img{
+    margin-left: 45px;
+}
+.member_button{
+    background-color: red !important;
+}
+.nav_center_text{
+    color: white !important;
+    margin: 10%;
+    animation-duration: 2s;
+    transform: translateX(-45px);
+}
+.heaader_first{
+    font-size: 52px !important;
+    line-height: 70px !important;
+    letter-spacing: 1px !important;
+    font-weight: bolder !important;
+}
+.first_section{
+    margin-top: 10rem !important;
+    animation: ease-in;
+    animation-delay: 0.2s;
+}
+.about_desc{
+    margin-top: 7rem !important;
+}
+.about_desc_header{
+    color: rgb(52, 52, 121) !important;
+    font-weight: bolder !important;
+    font-size: 38px;
+}
+.services{
+    background: url(../img/home/section/section_bg01.png);
+    width: 100%;
+    height: 100vh;
+    background-size: 100% 100%;
+    background-position: cover;
+    background-repeat: no-repeat;
+}
+.services_div{
+    margin-top: 10% !important;
+}
+.services_row{
+    padding-top: 20% !important;
+    color: #fff !important;
+}
+.services_buttton{
+    margin-left: auto !important;
+    display: flex !important;
+}
